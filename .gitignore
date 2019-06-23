@@ -1,0 +1,39 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+cryptojsdemo/dist
+cryptojsdemo/tmp
+cryptojsdemo/out-tsc
+
+# dependencies
+cryptojsdemo/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+cryptojsdemo/.sass-cache
+cryptojsdemo/connect.lock
+cryptojsdemo/coverage
+cryptojsdemo/libpeerconnection.log
+cryptojsdemo/npm-debug.log
+cryptojsdemo/yarn-error.log
+testem.log
+cryptojsdemo/typings
+
+# System Files
+.DS_Store
+Thumbs.db
